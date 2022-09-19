@@ -121,7 +121,7 @@ export const config = {
    */
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "nhut8sKHdrrc9PstNPXYhkIBcfLcZP_Vf9pi7f1kFgY",
+  CALLBACK_TEMPLATE_ID: "OwTrAh5EMzwr7KYfyw7jPxJbjEzH1yRoFhtqBO8eElU",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
@@ -216,8 +216,8 @@ export const config = {
       "爱你真是一种享受!",
       "多亏有仙女，让我学会了厨艺~",
       "借小仙女的云，飞过她的心田~",
-	    "一起度过艰难的岁月~",
-      "听我说谢谢你~"
+      "一起度过艰难的岁月~",
+      "听我说谢谢你~",
     ]},
     // 你可以不断按格式往下增加
     // ...
