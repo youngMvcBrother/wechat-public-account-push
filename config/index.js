@@ -32,13 +32,13 @@ export const config = {
     // 每日一言
     oneTalk: false,
     // 土味情话(彩虹屁)
-    earthyLoveWords: false,
+    earthyLoveWords: true,
     // 朋友圈文案
     momentCopyrighting: false,
     // 毒鸡汤
     poisonChickenSoup: false,
     // 古诗古文
-    poetry: false,
+    poetry: true,
 
     /** 星座运势 */
     horoscope: false,
@@ -77,7 +77,7 @@ export const config = {
       openUrl: "https://wangxinleo.cn",
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
-          {"type": "*生日", "name": "老婆", "year": "1992", "date": "01-10", isShowAge: false},
+          {"type": "*生日", "name": "鱼", "year": "1991", "date": "12-07", isShowAge: false},
           {"type": "节日", "name": "结婚纪念日", "year": "2017", "date": "11-13"}
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
@@ -101,7 +101,7 @@ export const config = {
       openUrl: "https://wangxinleo.cn",
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
-          {"type": "*生日", "name": "鱼", "year": "1991", "date": "12-07", isShowAge: false},
+          {"type": "*生日", "name": "老婆", "year": "1992", "date": "01-10", isShowAge: false},
           {"type": "节日", "name": "结婚纪念日", "year": "2017", "date": "11-13"}
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
