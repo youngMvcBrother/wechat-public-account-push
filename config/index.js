@@ -38,7 +38,7 @@ export const config = {
     // 毒鸡汤
     poisonChickenSoup: false,
     // 古诗古文
-    poetry: true,
+    poetry: false,
 
     /** 星座运势 */
     horoscope: false,
@@ -64,7 +64,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "ozvZX6_Sjc7TayEATg1kwxSJj9Kw",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "3NllXox2PvjMf8Bh0aBXCPCJci0mtW1OvbfWllOPbuo",
+      useTemplateId: "EgPlYflbWF6JmKOcgfyhP-nXEioBo2qQZdtp4-mxKSU",
       // 所在省份
       province: "广东",
       // 所在城市
@@ -208,13 +208,16 @@ export const config = {
     * */
   SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
-    {"keyword": "encourage_oneself", contents: "你主要的问题就是太萌了"},
+    {"keyword": "encourage_oneself", contents: "小仙女今天要开心哦~"},
     // 这样配置的话，就会每次随机选一句话发送
     {"keyword": "lover_prattle", contents: [
-      "因为太喜欢你，所以看谁都像是情敌。",
-      "申请成为你爱里的永久居民。",
-      "你很傻，你很笨，可我还是很羡慕你，因为你有我",
-      "遇见你，就好像捡到了100斤的运气",
+      "仙女应该是，怎么吃都不胖吧~",
+      "你看天上真的会掉1个亿幻想~",
+      "爱你真是一种享受!",
+      "多亏有仙女，让我学会了厨艺~",
+      "借小仙女的云，飞过她的心田~",
+	    "一起度过艰难的岁月~",
+      "听我说谢谢你~"
     ]},
     // 你可以不断按格式往下增加
     // ...
