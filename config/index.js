@@ -62,7 +62,7 @@ export const config = {
       // 想要发送的人的名字
       name: "小仙女",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "ozvZX6_Sjc7TayEATg1kwxSJj9Kw",
+      id: "ozvZX6_Sjc7TayEATg1kwxSJj9Kw1",
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "EgPlYflbWF6JmKOcgfyhP-nXEioBo2qQZdtp4-mxKSU",
       // 所在省份
@@ -92,7 +92,7 @@ export const config = {
     },
     {
       name: "鱼",
-      id: "ozvZX6-ppMkJ0zkbZicWih0VUV4Q",
+      id: "ozvZX6-ppMkJ0zkbZicWih0VUV4Q1",
       //useTemplateId: "xhSEcXHAFti5Q2M2jzLWSa0p9QVV1p0wx4hl5kJDEXg",
       useTemplateId: "10xWlCPlSzw7Mp8ul4pkOyBIe2HD7n2seY2syw8RLx0",
       province: "广东",
