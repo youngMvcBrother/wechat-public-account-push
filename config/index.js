@@ -93,7 +93,8 @@ export const config = {
     {
       name: "鱼",
       id: "ozvZX6-ppMkJ0zkbZicWih0VUV4Q",
-      useTemplateId: "xhSEcXHAFti5Q2M2jzLWSa0p9QVV1p0wx4hl5kJDEXg",
+      //useTemplateId: "xhSEcXHAFti5Q2M2jzLWSa0p9QVV1p0wx4hl5kJDEXg",
+      useTemplateId: "10xWlCPlSzw7Mp8ul4pkOyBIe2HD7n2seY2syw8RLx0",
       province: "广东",
       city: "广州",
       horoscopeDate: '01-11',
@@ -227,6 +228,18 @@ export const config = {
       "哇，小仙女啊~",
       "想有一辆车",
       "想开车兜风"
+    ]},
+    {"keyword": "lp_yu", contents: [
+      "鱼鱼是墩墩，就几道吃吃吃",
+      "带萌萌去兜风啦",
+      "哇，哪来的小靓仔",
+      "鱼鱼想要一个小红包~",
+      "给萌发一个红包吧",
+      "今天要乖哦",
+      "今天又是爱萌萌的一天",
+      "关机，一天工资到手",
+      "下班啦下班啦",
+      "今天不熬夜！"
     ]},
     // 你可以不断按格式往下增加
     // ...
