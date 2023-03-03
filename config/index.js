@@ -283,7 +283,7 @@ export const config = {
     * */
   SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
-    {"keyword": "encourage_oneself", contents: "又是元气满满的一天~"},
+    {"keyword": "encourage_oneself", contents: "百万目标~"},
     // 这样配置的话，就会每次随机选一句话发送
     {"keyword": "lover_prattle", contents: [
       "仙女应该是，怎么吃都不胖吧~",
