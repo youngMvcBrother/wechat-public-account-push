@@ -114,81 +114,7 @@ export const config = {
         // 认识的时间
         {"keyword": "know_day", date: "2009-09-01"},
       ]
-    },
-    {
-      // 想要发送的人的名字
-      name: '俊豪',
-      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      // 使用其他通道时，请严格按照各个通道的教程进行填写
-      id: 'ozvZX6yqTMeqWuxYXfNC_lZ0K5iQ',
-      // 使用微信测试号：你想对他发送的模板消息的模板ID
-      // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
-      useTemplateId: 'VZFB8FyswLtb8KplHJaNl3uuw-u6CUU9WWn5N0cBWx4',
-      // 所在省份或城市，也可以不填
-      province: '广东',
-      // 所在城市或县区
-      city: '广州',
-      // 新历生日, 仅用作获取星座运势, 格式必须
-      horoscopeDate: '09-21',
-      // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
-      horoscopeDateType: '今日',
-      // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: 'https://www.baidu.com',
-      // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
-      festivals: [
-        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {
-          type: '*生日', name: '老婆', year: '1996', date: '03-03',
-        },
-        {
-          type: '节日', name: '结婚纪念日', year: '2021', date: '08-28',
-        }
-      ],
-      // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
-      customizedDateList: [
-        // 在一起的日子
-        { keyword: 'love_day', date: '2016-03-04' },
-        // 结婚纪念日
-        { keyword: 'marry_day', date: '2021-08-28' }
-      ]
-    },
-    {
-      // 想要发送的人的名字
-      name: '孙恬',
-      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      // 使用其他通道时，请严格按照各个通道的教程进行填写
-      id: 'ozvZX6wabg6P23SqWLS0WYAgOwpM',
-      // 使用微信测试号：你想对他发送的模板消息的模板ID
-      // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
-      useTemplateId: 'VZFB8FyswLtb8KplHJaNl3uuw-u6CUU9WWn5N0cBWx4',
-      // 所在省份或城市，也可以不填
-      province: '广东',
-      // 所在城市或县区
-      city: '广州',
-      // 新历生日, 仅用作获取星座运势, 格式必须
-      horoscopeDate: '03-03',
-      // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
-      horoscopeDateType: '今日',
-      // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: 'https://www.baidu.com',
-      // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
-      festivals: [
-        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {
-          type: '生日', name: '老公', year: '1996', date: '09-21',
-        },
-        {
-          type: '节日', name: '结婚纪念日', year: '2021', date: '08-28',
-        }
-      ],
-      // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
-      customizedDateList: [
-        // 在一起的日子
-        { keyword: 'love_day', date: '2016-03-04' },
-        // 结婚纪念日
-        { keyword: 'marry_day', date: '2021-08-28' }
-      ]
-    }
+    }
   ],
 
   /**
@@ -315,8 +241,7 @@ export const config = {
       "今天不熬夜！",
       "给萌做个好吃的",
       "今天想萌萌一万次",
-      "一起追剧鸭",
-      "吃车厘子的日子"
+      "一起追剧鸭"
     ]},
     // 你可以不断按格式往下增加
     // ...
